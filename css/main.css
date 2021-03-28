@@ -70,6 +70,10 @@ header {
   color: #83888F;
 }
 
+.main-header__nav-link-active{
+  color: #000;
+}
+
 .main__coffee-made {
   background-image: url(../img/creat_coffee.jpg);
   background-repeat: no-repeat;
@@ -411,3 +415,6 @@ header {
   margin-right: 0;
 }
 
+.main-footer__nav-link:hover{
+  color: #fff;
+}
