@@ -77,8 +77,7 @@ header {
 .main__coffee-made {
   background-image: url(../img/creat_coffee.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 600px;
+  padding-bottom: 116px;
   border-radius: 10px;
 }
 
