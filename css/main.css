@@ -166,6 +166,28 @@ header {
   padding-top: 126px;
   margin-top: 136px;
   margin-bottom: 200.45px;
+  position: relative;
+}
+
+.our-collection__element-title{
+  font-size: 150px;
+  color: #83888F;
+  font-family: 'Fraunces 9pt Soft';
+  line-height: 72px;
+  font-weight: 900;
+  z-index: -1;
+  position: relative;
+  margin-left: 20px;
+}
+
+.our-collection__element{
+  opacity: 0.5;
+  position: absolute;
+  margin-top: -44px;
+}
+
+.our-collection__block-element{
+  background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #F2F2F2 100%);
 }
 
 .content-choose {
