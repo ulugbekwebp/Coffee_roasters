@@ -352,18 +352,11 @@ header {
 .content-how-it-works__item{
   width: 285px;
   margin-right: 95px;
+  position: relative;
 }
 
 .content-how-it-works__item:last-child{
   margin-right: 0;
-}
-
-.content-how-it-works__span{
-  font-family: 'Fraunces 9pt Soft';
-  font-size: 72px;
-  line-height: 72px;
-  color: #FDD6BA;
-  font-weight: 900;
 }
 
 .content-how-it-works__list-title{
@@ -373,8 +366,38 @@ header {
   color: #333D4B;
   margin: 0;
   width: 255px;
-  margin-top: 38px;
+  margin-top: 110px;
   margin-bottom: 42px;
+}
+
+.content-how-it-works__elemet--01::before{
+  content: '01';
+  display: block;
+  position: absolute;
+  color: #FDD6BA;
+  font-size: 72px;
+  line-height: 72px;
+  top: 0;
+}
+
+.content-how-it-works__elemet--02::before{
+  content: '02';
+  display: block;
+  position: absolute;
+  color: #FDD6BA;
+  font-size: 72px;
+  line-height: 72px;
+  top: 0;
+}
+
+.content-how-it-works__elemet--03::before{
+  content: '03';
+  display: block;
+  position: absolute;
+  color: #FDD6BA;
+  font-size: 72px;
+  line-height: 72px;
+  top: 0;
 }
 
 .content-how-it-works__list-desc{
