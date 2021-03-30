@@ -27,6 +27,12 @@ a {
   margin: 0 auto;
 }
 
+.coffee-made {
+  max-width: 1340px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
 .main {
   max-width: 1340px;
   padding: 0 30px;
@@ -74,14 +80,14 @@ header {
   color: #000;
 }
 
-.main__coffee-made {
+.coffee-made__container {
   background-image: url(../img/creat_coffee.jpg);
   background-repeat: no-repeat;
   padding-bottom: 116px;
   border-radius: 10px;
 }
 
-.content-coffee-made__title {
+.coffee-made__title {
   font-family: 'Fraunces 9pt Soft';
   margin: 0;
   color: #fff;
@@ -90,7 +96,7 @@ header {
   width: 493px;
 }
 
-.content-coffee-made__desc {
+.coffee-made__desc {
   width: 430px;
   font-size: 16px;
   line-height: 26px;
@@ -100,7 +106,7 @@ header {
   margin-bottom: 56px;
 }
 
-.content-coffee-made__coffee-link {
+.coffee-made__coffee-link {
   font-family: 'Fraunces 9pt Soft';
   padding: 15px 31px 16px;
   color: #fff;
@@ -108,12 +114,12 @@ header {
   border-radius: 6px;
 }
 
-.main__content-coffee-made {
+.coffee-made__block {
   padding-left: 85px;
   padding-top: 117px;
 }
 
-.content-coffee-made__link {
+.coffee-made__link {
   display: flex;
 }
 
@@ -370,7 +376,7 @@ header {
   margin-bottom: 42px;
 }
 
-.content-how-it-works__elemet--01::before{
+.content-how-it-works__elemet-01::before{
   content: '01';
   display: block;
   position: absolute;
@@ -380,7 +386,7 @@ header {
   top: 0;
 }
 
-.content-how-it-works__elemet--02::before{
+.content-how-it-works__elemet-02::before{
   content: '02';
   display: block;
   position: absolute;
@@ -390,7 +396,7 @@ header {
   top: 0;
 }
 
-.content-how-it-works__elemet--03::before{
+.content-how-it-works__elemet-03::before{
   content: '03';
   display: block;
   position: absolute;
@@ -407,7 +413,7 @@ header {
   margin: 0;
 }
 
-.main__footer{
+.main-footer{
   background-color: #2C343E;
   padding: 47px 0;
   margin-bottom: 88px;
@@ -439,4 +445,39 @@ header {
 
 .main-footer__nav-link:hover{
   color: #fff;
+}
+
+.content-how-it-works__link{
+  display: flex;
+}
+
+.content-how-it-works__coffee-link {
+  font-family: 'Fraunces 9pt Soft';
+  padding: 15px 31px 16px;
+  color: #fff;
+  background: #0E8784;
+  border-radius: 6px;
+}
+
+.main-footer__nav-list {
+  display: flex;
+}
+
+.main-footer__nav {
+  margin-left: 103px;
+}
+
+.main-footer__nav-item {
+  margin-right: 33px;
+}
+
+.main-footer__nav-item:last-child {
+  margin-right: 0;
+}
+
+.main-footer__nav-link {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  color: #83888F;
 }
