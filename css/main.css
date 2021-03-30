@@ -482,6 +482,20 @@ header {
   color: #83888F;
 }
 
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
 .container {
   max-width: 1171px;
   padding: 0 30px;
