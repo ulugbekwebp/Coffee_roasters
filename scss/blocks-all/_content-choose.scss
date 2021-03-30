@@ -48,11 +48,11 @@
   margin-right: 30px;
 }
 
-.content-choose__item:last-child{
+.content-choose__item:last-child {
   margin-right: 0;
 }
 
-.content-choose__item-title{
+.content-choose__item-title {
   font-family: 'Fraunces 9pt Soft';
   font-size: 24px;
   line-height: 32px;
@@ -62,7 +62,7 @@
   margin-bottom: 24px;
 }
 
-.content-choose__item-best-quality::before{
+.content-choose__item-best-quality::before {
   content: "";
   background-image: url(../img/best_quality.svg);
   background-size: contain;
@@ -73,7 +73,8 @@
   top: 72px;
   left: 136px;
 }
-.content-choose__item-exclusive::before{
+
+.content-choose__item-exclusive::before {
   content: "";
   background-image: url(../img/exclusive.svg);
   background-size: contain;
@@ -84,7 +85,8 @@
   top: 72px;
   left: 136px;
 }
-.content-choose__item-shipping::before{
+
+.content-choose__item-shipping::before {
   content: "";
   background-image: url(../img/shipping.svg);
   background-size: contain;
@@ -96,7 +98,7 @@
   left: 136px;
 }
 
-.content-choose__item-desc{
+.content-choose__item-desc {
   width: 255px;
   font-size: 16px;
   line-height: 26px;

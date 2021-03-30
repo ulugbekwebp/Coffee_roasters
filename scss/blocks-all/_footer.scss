@@ -1,27 +1,27 @@
-.main-footer__nav{
+.main-footer__nav {
   margin-left: 102.9px;
 }
 
 
-.main-footer__social-list{
+.main-footer__social-list {
   @include reset-list;
   display: flex;
   margin-left: auto;
 }
 
-.main-footer__social-item{
+.main-footer__social-item {
   margin-right: 24px;
 }
 
-.main-footer__social-item:last-child{
+.main-footer__social-item:last-child {
   margin-right: 0;
 }
 
-.main-footer__nav-link:hover{
+.main-footer__nav-link:hover {
   color: #fff;
 }
 
-.content-how-it-works__link{
+.content-how-it-works__link {
   display: flex;
 }
 
