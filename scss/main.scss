@@ -3,11 +3,6 @@
 @import "blocks-all/blocks-all";
 
 
-
-
-
-
-
 .container {
   max-width: 1171px;
   padding: 0 30px;
@@ -25,133 +20,15 @@
   @include main-container();
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .content-how-it-works{
   margin-bottom: 200px;
   width: 1045px;
-}
-
-.content-how-it-works__title{
-  font-family: 'Fraunces 9pt Soft';
-  font-size: 24px;
-  line-height: 32px;
-  color: #83888F;
-  margin: 0;
-  margin-bottom: 80px;
-}
-
-.content-how-it-works__round-item{
-  width: 31px;
-  height: 31px;
-  display: block;
-  border-radius: 50%;
-  border: 2px solid #0E8784;
-  background-color: #FEFCF7;
-  margin-right: 349px;
-}
-
-.content-how-it-works__round-item:last-child{
-  margin-right: 0;
-}
-
-.content-how-it-works__round-list{
-  display: flex;
-  position: relative;
-}
-
-.content-how-it-works__round-list::before{
-  position: absolute;
-  z-index: -1;
-  top: 15px;
-  left: 15.5px;
-  content: '';
-  height: 1px;
-  width: 760px;
-  border: 2px solid #FDD6BA;
-}
-
-.content-how-it-works__list{
-  @include reset-list;
-  display: flex;
-  margin-top: 67px;
-  margin-bottom: 64px;
-}
-
-.content-how-it-works__item{
-  width: 285px;
-  margin-right: 95px;
-  position: relative;
-}
-
-.content-how-it-works__item:last-child{
-  margin-right: 0;
-}
-
-.content-how-it-works__list-title{
-  font-family: 'Fraunces 9pt Soft';
-  font-size: 32px;
-  line-height: 36px;
-  color: #333D4B;
-  margin: 0;
-  width: 255px;
-  margin-top: 110px;
-  margin-bottom: 42px;
-}
-
-.content-how-it-works__elemet-01::before{
-  content: '01';
-  display: block;
-  position: absolute;
-  color: #FDD6BA;
-  font-size: 72px;
-  line-height: 72px;
-  top: 0;
-}
-
-.content-how-it-works__elemet-02::before{
-  content: '02';
-  display: block;
-  position: absolute;
-  color: #FDD6BA;
-  font-size: 72px;
-  line-height: 72px;
-  top: 0;
-}
-
-.content-how-it-works__elemet-03::before{
-  content: '03';
-  display: block;
-  position: absolute;
-  color: #FDD6BA;
-  font-size: 72px;
-  line-height: 72px;
-  top: 0;
-}
-
-.content-how-it-works__list-desc{
-  font-size: 16px;
-  line-height: 26px;
-  color: #333D4B;
-  margin: 0;
 }
 
 .main-footer{
   background-color: #2C343E;
   padding: 47px 0;
   margin-bottom: 88px;
-  
 }
 
 .main-footer__container{
@@ -159,61 +36,3 @@
   display: flex;
 }
 
-.main-footer__nav{
-  margin-left: 102.9px;
-}
-
-
-.main-footer__social-list{
-  @include reset-list;
-  display: flex;
-  margin-left: auto;
-}
-
-.main-footer__social-item{
-  margin-right: 24px;
-}
-
-.main-footer__social-item:last-child{
-  margin-right: 0;
-}
-
-.main-footer__nav-link:hover{
-  color: #fff;
-}
-
-.content-how-it-works__link{
-  display: flex;
-}
-
-.content-how-it-works__coffee-link {
-  font-family: 'Fraunces 9pt Soft';
-  padding: 15px 31px 16px;
-  color: #fff;
-  background: #0E8784;
-  border-radius: 6px;
-}
-
-.main-footer__nav-list {
-  @include reset-list;
-  display: flex;
-}
-
-.main-footer__nav {
-  margin-left: 103px;
-}
-
-.main-footer__nav-item {
-  margin-right: 33px;
-}
-
-.main-footer__nav-item:last-child {
-  margin-right: 0;
-}
-
-.main-footer__nav-link {
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 15px;
-  color: #83888F;
-}
