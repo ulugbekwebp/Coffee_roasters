@@ -1,0 +1,76 @@
+.our-collection__title {
+  font-family: 'Fraunces 9pt Soft';
+  font-size: 24px;
+  font-weight: 900;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.our-collection__desc {
+  margin: 0;
+  font-size: 16px;
+  line-height: 26px;
+  width: 255px;
+  text-align: center;
+}
+
+.our-collection__item {
+  height: 398.55px;
+  width: 255px;
+  margin-right: 30px;
+  position: relative;
+}
+
+.our-collection__item:last-child {
+  margin-right: 0;
+}
+
+.our-collection__list {
+  @include reset-list;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.our-collection__content {
+  margin-top: 264.55px;
+}
+
+.our-collection__content::before {
+  content: "";
+  position: absolute;
+  width: 255px;
+  height: 193px;
+  top: 0;
+  background-image: url(../img/gran_espresso.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.container__our-collection {
+  padding-top: 126px;
+  margin-top: 136px;
+  margin-bottom: 200.45px;
+  position: relative;
+}
+
+.our-collection__element-title{
+  font-size: 150px;
+  color: #83888F;
+  font-family: 'Fraunces 9pt Soft';
+  line-height: 72px;
+  font-weight: 900;
+  z-index: -1;
+  position: relative;
+  margin-left: 20px;
+}
+
+.our-collection__element{
+  opacity: 0.5;
+  position: absolute;
+  margin-top: -44px;
+}
+
+.our-collection__block-element{
+  background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #F2F2F2 100%);
+}

@@ -1,0 +1,42 @@
+.coffee-made__container {
+  background-image: url(../img/creat_coffee.jpg);
+  background-repeat: no-repeat;
+  padding-bottom: 116px;
+  border-radius: 10px;
+}
+
+.coffee-made__title {
+  font-family: 'Fraunces 9pt Soft';
+  margin: 0;
+  color: #fff;
+  font-size: 72px;
+  line-height: 72px;
+  width: 493px;
+}
+
+.coffee-made__desc {
+  width: 430px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  margin: 0;
+  margin-top: 32px;
+  margin-bottom: 56px;
+}
+
+.coffee-made__coffee-link {
+  font-family: 'Fraunces 9pt Soft';
+  padding: 15px 31px 16px;
+  color: #fff;
+  background: #0E8784;
+  border-radius: 6px;
+}
+
+.coffee-made__block {
+  padding-left: 85px;
+  padding-top: 117px;
+}
+
+.coffee-made__link {
+  display: flex;
+}

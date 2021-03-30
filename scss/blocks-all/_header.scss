@@ -1,0 +1,31 @@
+.main-header__nav-list {
+  @include reset-list;
+  display: flex;
+}
+
+.main-header__nav {
+  margin-left: auto;
+}
+
+.main-header__nav-item {
+  margin-right: 33px;
+}
+
+.main-header__nav-item:last-child {
+  margin-right: 0;
+}
+
+.main-header__nav-link {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  color: #83888F;
+}
+
+.main-header__nav-link-active{
+  color: #000;
+}
+
+.main {
+  @include main-container();
+}

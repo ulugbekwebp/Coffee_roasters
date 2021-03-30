@@ -16,41 +16,12 @@ a {
   text-decoration: none;
 }
 
-.container {
-  max-width: 1171px;
-  padding: 0 30px;
-  margin: 0 auto;
-}
-
-.coffee-made {
-  max-width: 1340px;
-  padding: 0 30px;
-  margin: 0 auto;
-}
-
-.main {
-  max-width: 1340px;
-  padding: 0 30px;
-  margin: 0 auto;
-}
-
 header {
   background-color: #F2F2F2;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1;
-}
-
-.main-header {
-  padding-top: 43.56px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-bottom: 43.44px;
 }
 
 .main-header__nav-list {
@@ -83,6 +54,12 @@ header {
 
 .main-header__nav-link-active {
   color: #000;
+}
+
+.main {
+  max-width: 1340px;
+  padding: 0 30px;
+  margin: 0 auto;
 }
 
 .coffee-made__container {
@@ -325,6 +302,29 @@ header {
   text-align: center;
   margin: 0 auto;
   color: #fff;
+}
+
+.container {
+  max-width: 1171px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.main-header {
+  padding-top: 43.56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 43.44px;
+}
+
+.coffee-made {
+  max-width: 1340px;
+  padding: 0 30px;
+  margin: 0 auto;
 }
 
 .content-how-it-works {
