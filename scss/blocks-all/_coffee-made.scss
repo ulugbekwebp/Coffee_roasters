@@ -1,3 +1,7 @@
+.coffee-made {
+  @include main-container();
+}
+
 .coffee-made__container {
   background-image: url(../img/creat_coffee.jpg);
   background-repeat: no-repeat;
@@ -39,4 +43,47 @@
 
 .coffee-made__link {
   display: flex;
+}
+
+@media screen and (max-width: 1340px) {
+  .coffee-made__title {
+    font-size: 48px;
+    width: 329px;
+  }
+
+  .coffee-made__desc {
+    font-size: 15px;
+    width: 398px;
+  }
+}
+
+
+@media screen and (max-width: 749px) {
+  .coffee-made__block{
+    padding-left: 0;
+  }
+  
+  .coffee-made__title {
+    font-size: 40px;
+    width: 279px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .coffee-made__desc {
+    text-align: center;
+    font-size: 15px;
+    width: 279px;
+    margin: 0 auto;
+  }
+
+  .coffee-made__coffee-link {
+    font-family: 'Fraunces 9pt Soft';
+    padding: 15px 31px 16px;
+    color: #fff;
+    background: #0E8784;
+    border-radius: 6px;
+    margin: 0 auto;
+    margin-top: 39px;
+  }
 }
