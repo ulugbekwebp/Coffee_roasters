@@ -72,14 +72,14 @@ img {
 }
 
 .main {
-  max-width: 1340px;
-  padding: 0 30px;
+  max-width: 1310px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
 .coffee-made {
-  max-width: 1340px;
-  padding: 0 30px;
+  max-width: 1310px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -128,7 +128,7 @@ img {
   display: flex;
 }
 
-@media screen and (max-width: 1340px) {
+@media screen and (max-width: 1310px) {
   .coffee-made__title {
     font-size: 48px;
     width: 329px;
@@ -139,7 +139,7 @@ img {
   }
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 719px) {
   .coffee-made__block {
     padding-left: 0;
   }
@@ -587,8 +587,8 @@ img {
 }
 
 .container {
-  max-width: 1171px;
-  padding: 0 30px;
+  max-width: 1141px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
