@@ -32,11 +32,11 @@
 }
 
 .content-how-it-works__round-list::before {
+  content: '';
   position: absolute;
   z-index: -1;
   top: 15px;
   left: 15.5px;
-  content: '';
   height: 1px;
   width: 760px;
   border: 2px solid #FDD6BA;
