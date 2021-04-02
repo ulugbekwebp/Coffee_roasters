@@ -45,7 +45,7 @@
   display: flex;
 }
 
-@media screen and (max-width: 1310px) {
+@media screen and (max-width: 1310px) { // Tablet
   .coffee-made__title {
     font-size: 48px;
     width: 329px;
@@ -58,7 +58,7 @@
 }
 
 
-@media screen and (max-width: 719px) {
+@media screen and (max-width: 719px) {  // Mobile
   .coffee-made__block{
     padding-left: 0;
   }

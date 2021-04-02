@@ -184,7 +184,6 @@ img {
 }
 
 .our-collection__item {
-  height: 398.55px;
   width: 255px;
   margin-right: 30px;
   position: relative;
@@ -205,48 +204,88 @@ img {
       flex-wrap: wrap;
 }
 
-.our-collection__content {
-  margin-top: 264.55px;
-}
-
-.our-collection__content::before {
-  content: "";
-  position: absolute;
-  width: 255px;
-  height: 193px;
-  top: 0;
-  background-image: url(../img/gran_espresso.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
 .container__our-collection {
-  padding-top: 126px;
   margin-top: 136px;
   margin-bottom: 200.45px;
   position: relative;
 }
 
 .our-collection__element-title {
+  text-align: center;
   font-size: 150px;
   color: #83888F;
   font-family: 'Fraunces 9pt Soft';
-  line-height: 72px;
   font-weight: 900;
-  z-index: -1;
   position: relative;
-  margin-left: 20px;
-}
-
-.our-collection__element {
   opacity: 0.5;
-  position: absolute;
-  margin-top: -44px;
+  margin: 0;
+  bottom: -80px;
 }
 
-.our-collection__block-element {
+.our-collection__element-title::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(254, 252, 247, 0.0001)), to(#F2F2F2));
   background: linear-gradient(180deg, rgba(254, 252, 247, 0.0001) 0%, #F2F2F2 100%);
+}
+
+@media screen and (max-width: 1310px) {
+  .our-collection__element-title {
+    font-size: 96px;
+  }
+  .our-collection__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .our-collection__item {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .our-collection__desc {
+    text-align: start;
+  }
+  .our-collection__title {
+    text-align: start;
+    margin-bottom: 24px;
+  }
+  .our-collection__item:last-child {
+    margin: 0 auto;
+  }
+  .our-collection__list {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .our-collection__element-title {
+    font-size: 40px;
+    top: -1px;
+  }
+  .our-collection__item {
+    display: block;
+  }
+  .our-collection__desc {
+    text-align: center;
+  }
+  .our-collection__title {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .our-collection__item {
+    margin-bottom: 48px;
+  }
 }
 
 .content-choose {
@@ -361,9 +400,79 @@ img {
   color: #fff;
 }
 
+@media screen and (max-width: 1310px) {
+  .content-choose {
+    padding-bottom: 368px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .content-choose__item {
+    width: 100%;
+    margin-bottom: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 0;
+    padding: 41px 48px 41px 70px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .content-choose__list {
+    padding: 0;
+    margin-left: 58px;
+    margin-right: 58px;
+  }
+  .content-choose__desc {
+    margin: 0 auto;
+  }
+  .content-choose__item-desc {
+    text-align: start;
+  }
+  .content-choose__item-title {
+    text-align: start;
+    margin-bottom: 16px;
+  }
+  .content-choose__item::before {
+    content: "";
+    background-size: contain;
+    display: block;
+    margin: 0 auto;
+    margin-left: 0;
+    margin-right: 56px;
+  }
+  .content-choose__item-desc {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .content-choose__item {
+    display: block;
+  }
+  .content-choose__item:last-child {
+    margin-bottom: 0;
+  }
+  .content-choose__item::before {
+    content: "";
+    display: block;
+    margin: 0 auto;
+  }
+  .content-choose__item-title {
+    text-align: center;
+    margin-top: 58px;
+  }
+  .content-choose__item-desc {
+    text-align: center;
+  }
+  .content-choose {
+    margin-bottom: 105%;
+  }
+}
+
 .content-how-it-works {
   margin-bottom: 200px;
-  width: 1045px;
 }
 
 .content-how-it-works__title {
@@ -447,6 +556,7 @@ img {
   font-size: 72px;
   line-height: 72px;
   top: 0;
+  font-family: 'Fraunces 9pt Soft';
 }
 
 .content-how-it-works__elemet-02::before {
@@ -457,6 +567,7 @@ img {
   font-size: 72px;
   line-height: 72px;
   top: 0;
+  font-family: 'Fraunces 9pt Soft';
 }
 
 .content-how-it-works__elemet-03::before {
@@ -467,6 +578,7 @@ img {
   font-size: 72px;
   line-height: 72px;
   top: 0;
+  font-family: 'Fraunces 9pt Soft';
 }
 
 .content-how-it-works__list-desc {
@@ -474,6 +586,48 @@ img {
   line-height: 26px;
   color: #333D4B;
   margin: 0;
+}
+
+@media screen and (max-width: 1310px) {
+  .content-how-it-works__item {
+    width: 233px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 719px) {
+  .content-how-it-works__title {
+    text-align: center;
+  }
+  .content-how-it-works__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .content-how-it-works__item:last-child {
+    margin-bottom: 0;
+  }
+  .content-how-it-works__item {
+    margin: 0 auto;
+    margin-bottom: 56px;
+  }
+  .content-how-it-works__item:last-child {
+    margin: 0 auto;
+  }
+  .content-how-it-works__list-title {
+    text-align: center;
+    width: auto;
+  }
+  .content-how-it-works__list-desc {
+    text-align: center;
+  }
+  .content-how-it-works__elemet-01::before {
+    margin: 0 auto;
+  }
+  .content-how-it-works__coffee-link {
+    margin: 0 auto;
+  }
 }
 
 .main-footer {
@@ -557,6 +711,38 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media screen and (max-width: 719px) {
+  .main-footer__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-footer__nav-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+  }
+  .main-footer__nav-item {
+    margin-right: 0;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .main-footer__nav-item:last-child {
+    margin-bottom: 0;
+  }
+  .main-footer__nav {
+    margin-left: 0;
+    margin-top: 48.44px;
+    margin-bottom: 48.56px;
+  }
+  .main-footer__social-list {
+    margin-left: 0;
+  }
 }
 
 .about-us {
