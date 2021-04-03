@@ -77,6 +77,15 @@ img {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 719px) {
+  .main-header__nav {
+    display: none;
+  }
+  .main-header__nav--active {
+    display: block;
+  }
+}
+
 .coffee-made {
   max-width: 1310px;
   padding: 0 15px;
@@ -796,5 +805,47 @@ img {
   margin: -1px;
   padding: 0;
   border: 0;
+}
+
+.hamburger {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  margin-left: auto;
+}
+
+.hamburger::before,
+.hamburger__inner,
+.hamburger::after {
+  content: "";
+  width: 16px;
+  height: 3px;
+  background-color: black;
+  border-radius: 1.5px;
+  display: block;
+  margin-bottom: 3px;
+}
+
+.hamburger::after {
+  margin-bottom: 0;
+}
+
+.hamburger--active .hamburger__inner {
+  display: none;
+}
+
+.hamburger--active::before {
+  position: relative;
+  top: 3px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.hamburger--active::after {
+  position: relative;
+  top: -3px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 /*# sourceMappingURL=main.css.map */

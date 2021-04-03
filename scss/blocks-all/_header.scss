@@ -35,3 +35,13 @@
 .main {
   @include main-container();
 }
+
+@media screen and (max-width: 719px){
+  .main-header__nav{
+    display: none;
+  }
+
+  .main-header__nav--active{
+    display: block;
+  }
+}
