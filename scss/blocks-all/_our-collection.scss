@@ -77,7 +77,7 @@
 }
 
 
-@media screen and (max-width: 1310px) { // Tablet
+@media screen and (max-width: $tablet) { // Tablet
   .our-collection__element-title{
     font-size: 96px;
   }
@@ -112,7 +112,7 @@
   
 } 
 
-@media screen and (max-width: 719px){ // Mobile
+@media screen and (max-width: $mobile){ // Mobile
   .our-collection__element-title{
     font-size: 40px;
     top: -1px;

@@ -45,7 +45,12 @@
   display: flex;
 }
 
-@media screen and (max-width: 1310px) { // Tablet
+.coffee-made__coffee-link:active{
+  background-color: #66D2CF;
+}
+
+@media screen and (max-width: $tablet) { // Tablet
+
   .coffee-made__title {
     font-size: 48px;
     line-height: 48px;
@@ -58,7 +63,9 @@
   }
 }
 
-@media screen and (max-width: 719px) {  // Mobile
+@media screen and (max-width: $mobile) {  // Mobile
+
+
   .coffee-made__block{
     padding-left: 0;
   }

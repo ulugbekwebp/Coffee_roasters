@@ -1,7 +1,8 @@
 .main-footer {
   background-color: #2C343E;
+  max-width: $tablet;
   padding: 47px 0;
-  margin-bottom: 88px;
+  margin: 0 auto;
 }
 
 
@@ -25,8 +26,8 @@
   margin-right: 0;
 }
 
-.main-footer__nav-link:hover {
-  color: #fff;
+.main-footer__nav-link:active {
+  color: #FEFCF7;
 }
 
 .content-how-it-works__link {
@@ -70,7 +71,39 @@
   display: flex;
 }
 
-@media screen and (max-width: 719px){ // Mobile
+@media screen and (max-width: $tablet) {
+  .main-footer__container{
+    flex-direction: column;
+  }
+
+  .main-footer__nav-list{
+    margin: 0 auto;
+  }
+  
+  .main-footer__nav-item{
+    margin-right: 0;
+    text-align: center;
+    // margin-bottom: 24px;
+    margin-right: 32px;
+  }
+
+  .main-footer__nav-item:last-child{
+    margin-bottom: 0;
+  }
+
+  .main-footer__nav{
+    margin-left: 0;
+    margin-top: 32px;
+    margin-bottom: 65px;
+  }
+
+  .main-footer__social-list{
+    margin-left: 0;
+  }
+}
+
+
+@media screen and (max-width: $mobile){ // Mobile
   .main-footer__container{
     flex-direction: column;
   }

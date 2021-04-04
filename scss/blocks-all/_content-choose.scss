@@ -1,4 +1,4 @@
-.content-choose {
+.content-choose  {
   width: 100%;
   background-color: #2C343E;
   border-radius: 10px;
@@ -106,7 +106,7 @@
   color: #fff;
 }
 
-@media screen and (max-width: 1310px) {
+@media screen and (max-width: $tablet) {
 
   // Tablet
   .content-choose {
@@ -158,7 +158,7 @@
   }
 }
 
-@media screen and (max-width: 719px){ // Mobile
+@media screen and (max-width: $mobile){ // Mobile
   .content-choose__item {
     display: block;
   }
@@ -184,6 +184,6 @@
 
 
   .content-choose{
-    margin-bottom: 105%;
+    margin-bottom: 120%;
   }
 }

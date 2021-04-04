@@ -110,16 +110,36 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1310px) { // Tablet
+.content-how-it-works__coffee-link:active{
+  background: #66D2CF;
+}
+
+@media screen and (max-width: $tablet) { // Tablet
   .content-how-it-works__item{
     width: 233px;
     margin-right: 10px;
   }
+  
+  .content-how-it-works__list-desc{
+    font-size: 15px;
+  }
+
+  .content-how-it-works__list-title{
+    width: auto;
+  }
+
+  .content-how-it-works__round-list{
+    display: none;
+  }
 }
 
-@media screen and (max-width: 719px){  // Mobile
+@media screen and (max-width: $mobile){  // Mobile
   .content-how-it-works__title{
     text-align: center;
+  }
+
+  .content-how-it-works__round-list{
+    display: none;
   }
 
   .content-how-it-works__list{
@@ -154,5 +174,10 @@
 
   .content-how-it-works__coffee-link{
     margin: 0 auto;
+  }
+
+  .content-how-it-works__item::before{
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
