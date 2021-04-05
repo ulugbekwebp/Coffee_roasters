@@ -1,0 +1,101 @@
+.uncompromising-quality {
+  background-color: #2C343E;
+  padding-top: 88px;
+  padding-bottom: 176px;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 168px;
+}
+
+.uncompromising-quality__block {
+  margin-left: 85px;
+}
+
+.uncompromising-quality__title {
+  margin: 0;
+  font-family: "Fraunces 9pt Soft";
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  margin-bottom: 32px;
+}
+
+.uncompromising-quality__desc {
+  margin: 0;
+  font-size: 16px;
+  line-height: 26px;
+  width: 540px;
+  color: #FEFCF7;
+}
+
+.uncompromising-quality__img {
+  background-image: url(/img/about-us/uncompromising-quality.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 445px;
+  height: 474px;
+  position: absolute;
+  top: 0;
+  margin-top: -88px;
+  border-radius: 8px;
+  right: 85px;
+}
+
+
+@media screen and (max-width: $tablet) {
+  .uncompromising-quality__img {
+    background: url(/img/about-us/uncompromising-quality-tablet.png);
+    width: 573px;
+    height: 320px;
+    margin-top: -160px;
+    left: 50%;
+    right: 0;
+    transform: translateX(-50%);
+  }
+
+  .uncompromising-quality{
+    padding-top: 224px;
+    padding-bottom: 67px;
+  }
+
+  .uncompromising-quality__desc{
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .uncompromising-quality__title{
+    text-align: center;
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .uncompromising-quality__block{
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:$mobile) {
+  .uncompromising-quality__img{
+    background: url(/img/about-us/uncompromising-quality-mobile.png);
+    width: 279px;
+    height: 156px;
+    margin-top: -78px;
+  }
+
+  .uncompromising-quality{
+    padding-top: 142px;
+    padding-bottom: 61px;
+  }
+
+  .uncompromising-quality__desc{
+    font-size: 15px;
+    line-height: 25px;
+  }
+  
+  .uncompromising-quality__title{
+    font-size: 28px;
+    line-height: 28px;
+  }
+}

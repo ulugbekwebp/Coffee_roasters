@@ -2,12 +2,13 @@
   background-image: url(../img/about-us/about-us.png);
   border-radius: 10px;
   padding: 137px 0;
-  width: 1280px;
+  max-width: 1280px;
   padding-left: 85px;
   margin: 0 auto;
 }
 
-.about-us-title {
+
+.about-us__title {
   font-family: 'Fraunces 9pt Soft';
   font-weight: 900;
   font-size: 40px;
@@ -17,10 +18,44 @@
   color: #FEFCF7;
 }
 
-.about-us-desc {
+.about-us__desc {
   width: 445px;
   font-size: 16px;
   line-height: 26px;
   color: #FEFCF7;
   margin: 0;
+}
+
+
+@media screen and (max-width: $tablet) {
+  .about-us__title{
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .about-us__desc{
+    font-size: 15px;
+    line-height: 25px;
+    width: 398px;
+  }
+}
+
+@media screen and (max-width: $mobile){
+  .about-us{
+    padding-left: 0;
+  }
+
+  .about-us__title{
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .about-us__desc{
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    margin: 0 auto;
+    width: 279px;
+  }
 }

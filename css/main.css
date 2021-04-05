@@ -80,6 +80,37 @@ img {
   font-display: swap;
 }
 
+.main-header__hamburger {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  margin-left: auto;
+  display: none;
+}
+
+.main-header__hamburger::before,
+.main-header__hamburger__inner,
+.main-header__hamburger::after {
+  content: "";
+  width: 16px;
+  height: 3px;
+  background-color: #000;
+  display: block;
+  margin-bottom: 3px;
+  border-radius: 1.5px;
+}
+
+.main-header__hamburger::after {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 689px) {
+  .main-header__hamburger {
+    display: block;
+  }
+}
+
 .main-header__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -904,12 +935,12 @@ img {
   background-image: url(../img/about-us/about-us.png);
   border-radius: 10px;
   padding: 137px 0;
-  width: 1280px;
+  max-width: 1280px;
   padding-left: 85px;
   margin: 0 auto;
 }
 
-.about-us-title {
+.about-us__title {
   font-family: 'Fraunces 9pt Soft';
   font-weight: 900;
   font-size: 40px;
@@ -919,7 +950,7 @@ img {
   color: #FEFCF7;
 }
 
-.about-us-desc {
+.about-us__desc {
   width: 445px;
   font-size: 16px;
   line-height: 26px;
@@ -927,34 +958,339 @@ img {
   margin: 0;
 }
 
-.main-header__hamburger {
-  margin: 0;
-  padding: 0;
-  border: none;
-  background-color: transparent;
-  margin-left: auto;
-  display: none;
-}
-
-.main-header__hamburger::before,
-.main-header__hamburger__inner,
-.main-header__hamburger::after {
-  content: "";
-  width: 16px;
-  height: 3px;
-  background-color: #000;
-  display: block;
-  margin-bottom: 3px;
-  border-radius: 1.5px;
-}
-
-.main-header__hamburger::after {
-  margin-bottom: 0;
+@media screen and (max-width: 1280px) {
+  .about-us__title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .about-us__desc {
+    font-size: 15px;
+    line-height: 25px;
+    width: 398px;
+  }
 }
 
 @media screen and (max-width: 689px) {
-  .main-header__hamburger {
-    display: block;
+  .about-us {
+    padding-left: 0;
+  }
+  .about-us__title {
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .about-us__desc {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    margin: 0 auto;
+    width: 279px;
+  }
+}
+
+.our-commitment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin-top: 168px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 256px;
+}
+
+.our-commitment__block {
+  margin-left: auto;
+}
+
+.our-commitment__title {
+  margin: 0;
+  font-size: 40px;
+  line-height: 48px;
+  font-family: "Fraunces 9pt Soft";
+  color: #333D4B;
+  margin-bottom: 32px;
+}
+
+.our-commitment__desc {
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  width: 540px;
+  margin: 0;
+}
+
+.our-commitment__img {
+  border-radius: 8px;
+  background-image: url(/img/about-us/our-commitment.png);
+  background-repeat: no-repeat;
+  height: 520px;
+  width: 445px;
+}
+
+@media screen and (max-width: 1280px) {
+  .our-commitment__desc {
+    font-size: 15px;
+    line-height: 25px;
+    color: #333D4B;
+    width: 339px;
+    margin: 0;
+  }
+  .our-commitment {
+    margin-bottom: 304px;
+  }
+  .our-commitment__title {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .our-commitment__img {
+    background-image: url(/img/about-us/our-commitment-tablet.png);
+    width: 281px;
+    height: 470px;
+  }
+}
+
+@media screen and (max-width: 689px) {
+  .our-commitment {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .our-commitment__img {
+    background-image: url(/img/about-us/our-commitment-mobile.png);
+    width: 327px;
+    height: 400px;
+  }
+  .our-commitment__block {
+    margin-top: 48px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 0;
+  }
+  .our-commitment__title {
+    text-align: center;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .our-commitment__desc {
+    text-align: center;
+  }
+}
+
+.uncompromising-quality {
+  background-color: #2C343E;
+  padding-top: 88px;
+  padding-bottom: 176px;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 168px;
+}
+
+.uncompromising-quality__block {
+  margin-left: 85px;
+}
+
+.uncompromising-quality__title {
+  margin: 0;
+  font-family: "Fraunces 9pt Soft";
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  margin-bottom: 32px;
+}
+
+.uncompromising-quality__desc {
+  margin: 0;
+  font-size: 16px;
+  line-height: 26px;
+  width: 540px;
+  color: #FEFCF7;
+}
+
+.uncompromising-quality__img {
+  background-image: url(/img/about-us/uncompromising-quality.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 445px;
+  height: 474px;
+  position: absolute;
+  top: 0;
+  margin-top: -88px;
+  border-radius: 8px;
+  right: 85px;
+}
+
+@media screen and (max-width: 1280px) {
+  .uncompromising-quality__img {
+    background: url(/img/about-us/uncompromising-quality-tablet.png);
+    width: 573px;
+    height: 320px;
+    margin-top: -160px;
+    left: 50%;
+    right: 0;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .uncompromising-quality {
+    padding-top: 224px;
+    padding-bottom: 67px;
+  }
+  .uncompromising-quality__desc {
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .uncompromising-quality__title {
+    text-align: center;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .uncompromising-quality__block {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 689px) {
+  .uncompromising-quality__img {
+    background: url(/img/about-us/uncompromising-quality-mobile.png);
+    width: 279px;
+    height: 156px;
+    margin-top: -78px;
+  }
+  .uncompromising-quality {
+    padding-top: 142px;
+    padding-bottom: 61px;
+  }
+  .uncompromising-quality__desc {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .uncompromising-quality__title {
+    font-size: 28px;
+    line-height: 28px;
+  }
+}
+
+.our-headquarters {
+  margin-bottom: 168px;
+}
+
+.our-headquarters__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 95px;
+}
+
+.our-headquarters__title {
+  margin: 0;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  font-family: "Fraunces 9pt Soft";
+  margin-bottom: 72px;
+}
+
+.our-headquarters__item-title {
+  font-family: "Fraunces 9pt Soft";
+  margin: 0;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+  margin-bottom: 24px;
+}
+
+.our-headquarters__item {
+  width: 285px;
+  margin-right: 95px;
+  position: relative;
+  text-align: center;
+}
+
+.our-headquarters__item:last-child {
+  margin-right: 0;
+}
+
+.our-headquarters__item-desc {
+  margin: 0;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.our-headquarters__item::before {
+  content: "";
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 0;
+  margin-top: -95px;
+}
+
+.our-headquarters__item-01::before {
+  background-image: url(/img/about-us/uk.png);
+  width: 42px;
+  height: 51px;
+}
+
+.our-headquarters__item-02::before {
+  background-image: url(/img/about-us/canada.png);
+  width: 52px;
+  height: 50px;
+}
+
+.our-headquarters__item-03::before {
+  background-image: url(/img/about-us/australia.png);
+  width: 48.97px;
+  height: 43.94px;
+}
+
+@media screen and (max-width: 1280px) {
+  .our-headquarters__item-title {
+    font-size: 24px;
+  }
+  .our-headquarters__item {
+    width: 222px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 689px) {
+  .our-headquarters__title {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+  }
+  .our-headquarters__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 0;
+  }
+  .our-headquarters__item {
+    margin-bottom: 80px;
+    margin-right: 0;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  .our-headquarters__item:last-child {
+    margin-bottom: 0;
+    margin: 0 auto;
+  }
+  .our-headquarters__item::before {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
   }
 }
 /*# sourceMappingURL=main.css.map */

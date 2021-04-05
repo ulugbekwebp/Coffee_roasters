@@ -1,0 +1,113 @@
+.our-headquarters {
+  margin-bottom: 168px;
+}
+
+
+.our-headquarters__list {
+  @include reset-list;
+  display: flex;
+  padding-top: 95px;
+}
+
+.our-headquarters__title {
+  margin: 0;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  font-family: "Fraunces 9pt Soft";
+  margin-bottom: 72px;
+}
+
+.our-headquarters__item-title {
+  font-family: "Fraunces 9pt Soft";
+  margin: 0;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+  margin-bottom: 24px;
+}
+
+.our-headquarters__item {
+  width: 285px;
+  margin-right: 95px;
+  position: relative;
+  text-align: center;
+}
+
+.our-headquarters__item:last-child {
+  margin-right: 0;
+}
+
+.our-headquarters__item-desc {
+  margin: 0;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.our-headquarters__item::before {
+  content: "";
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 0;
+  margin-top: -95px;
+}
+
+.our-headquarters__item-01::before {
+  background-image: url(/img/about-us/uk.png);
+  width: 42px;
+  height: 51px;
+}
+
+.our-headquarters__item-02::before {
+  background-image: url(/img/about-us/canada.png);
+  width: 52px;
+  height: 50px;
+}
+
+.our-headquarters__item-03::before {
+  background-image: url(/img/about-us/australia.png);
+  width: 48.97px;
+  height: 43.94px;
+}
+
+@media screen and (max-width: $tablet) {
+  .our-headquarters__item-title {
+    font-size: 24px;
+  }
+  
+  .our-headquarters__item {
+    width: 222px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .our-headquarters__title{
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+  }
+  
+  .our-headquarters__list{
+    flex-direction: column;
+    padding-top: 0;
+  }
+  
+  .our-headquarters__item{
+    margin-bottom: 80px;
+    margin-right: 0;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  
+  .our-headquarters__item:last-child{
+    margin-bottom: 0;
+    margin: 0 auto;
+  }
+  
+  .our-headquarters__item::before{
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
