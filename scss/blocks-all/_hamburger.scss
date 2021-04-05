@@ -1,5 +1,4 @@
-
-.main-header__hamburger{
+.main-header__hamburger {
   margin: 0;
   padding: 0;
   border: none;
@@ -10,7 +9,7 @@
 
 .main-header__hamburger::before,
 .main-header__hamburger__inner,
-.main-header__hamburger::after{
+.main-header__hamburger::after {
   content: "";
   width: 16px;
   height: 3px;
@@ -20,12 +19,12 @@
   border-radius: 1.5px;
 }
 
-.main-header__hamburger::after{
+.main-header__hamburger::after {
   margin-bottom: 0;
 }
 
 @media screen and (max-width: $mobile) {
-  .main-header__hamburger{
+  .main-header__hamburger {
     display: block;
   }
 }

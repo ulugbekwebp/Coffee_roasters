@@ -45,11 +45,12 @@
   display: flex;
 }
 
-.coffee-made__coffee-link:active{
+.coffee-made__coffee-link:active {
   background-color: #66D2CF;
 }
 
-@media screen and (max-width: $tablet) { // Tablet
+@media screen and (max-width: $tablet) {
+  // Tablet
 
   .coffee-made__title {
     font-size: 48px;
@@ -63,13 +64,14 @@
   }
 }
 
-@media screen and (max-width: $mobile) {  // Mobile
+@media screen and (max-width: $mobile) {
+  // Mobile
 
 
-  .coffee-made__block{
+  .coffee-made__block {
     padding-left: 0;
   }
-  
+
   .coffee-made__title {
     font-size: 40px;
     line-height: 40px;

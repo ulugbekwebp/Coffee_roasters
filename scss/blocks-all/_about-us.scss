@@ -28,30 +28,30 @@
 
 
 @media screen and (max-width: $tablet) {
-  .about-us__title{
+  .about-us__title {
     font-size: 32px;
     line-height: 40px;
   }
 
-  .about-us__desc{
+  .about-us__desc {
     font-size: 15px;
     line-height: 25px;
     width: 398px;
   }
 }
 
-@media screen and (max-width: $mobile){
-  .about-us{
+@media screen and (max-width: $mobile) {
+  .about-us {
     padding-left: 0;
   }
 
-  .about-us__title{
+  .about-us__title {
     font-size: 28px;
     line-height: 28px;
     text-align: center;
   }
 
-  .about-us__desc{
+  .about-us__desc {
     font-size: 15px;
     line-height: 25px;
     text-align: center;

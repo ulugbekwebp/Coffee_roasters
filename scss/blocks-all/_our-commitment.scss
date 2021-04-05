@@ -1,4 +1,4 @@
-.our-commitment{
+.our-commitment {
   display: flex;
   flex-direction: row-reverse;
   margin-top: 168px;
@@ -6,11 +6,11 @@
   margin-bottom: 256px;
 }
 
-.our-commitment__block{
+.our-commitment__block {
   margin-left: auto;
 }
 
-.our-commitment__title{
+.our-commitment__title {
   margin: 0;
   font-size: 40px;
   line-height: 48px;
@@ -19,7 +19,7 @@
   margin-bottom: 32px;
 }
 
-.our-commitment__desc{
+.our-commitment__desc {
   font-size: 16px;
   line-height: 26px;
   color: #333D4B;
@@ -27,7 +27,7 @@
   margin: 0;
 }
 
-.our-commitment__img{
+.our-commitment__img {
   border-radius: 8px;
   background-image: url(/img/about-us/our-commitment.png);
   background-repeat: no-repeat;
@@ -38,7 +38,7 @@
 
 
 @media screen and (max-width: $tablet) {
-  .our-commitment__desc{
+  .our-commitment__desc {
     font-size: 15px;
     line-height: 25px;
     color: #333D4B;
@@ -46,46 +46,46 @@
     margin: 0;
   }
 
-  .our-commitment{
+  .our-commitment {
     margin-bottom: 304px;
   }
 
-  .our-commitment__title{
+  .our-commitment__title {
     font-size: 32px;
     line-height: 48px;
   }
 
-  .our-commitment__img{
+  .our-commitment__img {
     background-image: url(/img/about-us/our-commitment-tablet.png);
     width: 281px;
     height: 470px;
   }
 }
 
-@media screen and (max-width: $mobile){
-  .our-commitment{
+@media screen and (max-width: $mobile) {
+  .our-commitment {
     flex-direction: column-reverse;
   }
 
-  .our-commitment__img{
+  .our-commitment__img {
     background-image: url(/img/about-us/our-commitment-mobile.png);
     width: 327px;
     height: 400px;
   }
 
-  .our-commitment__block{
+  .our-commitment__block {
     margin-top: 48px;
     align-items: center;
     margin-left: 0;
   }
 
-  .our-commitment__title{
+  .our-commitment__title {
     text-align: center;
     font-size: 32px;
     line-height: 48px;
   }
 
-  .our-commitment__desc{
+  .our-commitment__desc {
     text-align: center;
   }
 }
