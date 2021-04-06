@@ -559,6 +559,7 @@ img {
   }
   .content-choose__desc {
     margin: 0 auto;
+    width: auto;
   }
   .content-choose__item-desc {
     text-align: start;
@@ -1026,10 +1027,6 @@ img {
 
 .our-commitment__img {
   border-radius: 8px;
-  background-image: url(/img/about-us/our-commitment.png);
-  background-repeat: no-repeat;
-  height: 520px;
-  width: 445px;
 }
 
 @media screen and (max-width: 1280px) {
@@ -1047,11 +1044,6 @@ img {
     font-size: 32px;
     line-height: 48px;
   }
-  .our-commitment__img {
-    background-image: url(/img/about-us/our-commitment-tablet.png);
-    width: 281px;
-    height: 470px;
-  }
 }
 
 @media screen and (max-width: 689px) {
@@ -1060,11 +1052,6 @@ img {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-  }
-  .our-commitment__img {
-    background-image: url(/img/about-us/our-commitment-mobile.png);
-    width: 327px;
-    height: 400px;
   }
   .our-commitment__block {
     margin-top: 48px;
@@ -1114,11 +1101,6 @@ img {
 }
 
 .uncompromising-quality__img {
-  background-image: url(/img/about-us/uncompromising-quality.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 445px;
-  height: 474px;
   position: absolute;
   top: 0;
   margin-top: -88px;
@@ -1128,9 +1110,6 @@ img {
 
 @media screen and (max-width: 1280px) {
   .uncompromising-quality__img {
-    background: url(/img/about-us/uncompromising-quality-tablet.png);
-    width: 573px;
-    height: 320px;
     margin-top: -160px;
     left: 50%;
     right: 0;
@@ -1159,9 +1138,6 @@ img {
 
 @media screen and (max-width: 689px) {
   .uncompromising-quality__img {
-    background: url(/img/about-us/uncompromising-quality-mobile.png);
-    width: 279px;
-    height: 156px;
     margin-top: -78px;
   }
   .uncompromising-quality {

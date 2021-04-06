@@ -29,11 +29,6 @@
 }
 
 .uncompromising-quality__img {
-  background-image: url(/img/about-us/uncompromising-quality.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 445px;
-  height: 474px;
   position: absolute;
   top: 0;
   margin-top: -88px;
@@ -44,9 +39,6 @@
 
 @media screen and (max-width: $tablet) {
   .uncompromising-quality__img {
-    background: url(/img/about-us/uncompromising-quality-tablet.png);
-    width: 573px;
-    height: 320px;
     margin-top: -160px;
     left: 50%;
     right: 0;
@@ -78,9 +70,6 @@
 
 @media screen and (max-width:$mobile) {
   .uncompromising-quality__img {
-    background: url(/img/about-us/uncompromising-quality-mobile.png);
-    width: 279px;
-    height: 156px;
     margin-top: -78px;
   }
 

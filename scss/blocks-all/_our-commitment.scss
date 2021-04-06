@@ -29,10 +29,6 @@
 
 .our-commitment__img {
   border-radius: 8px;
-  background-image: url(/img/about-us/our-commitment.png);
-  background-repeat: no-repeat;
-  height: 520px;
-  width: 445px;
 }
 
 
@@ -54,23 +50,11 @@
     font-size: 32px;
     line-height: 48px;
   }
-
-  .our-commitment__img {
-    background-image: url(/img/about-us/our-commitment-tablet.png);
-    width: 281px;
-    height: 470px;
-  }
 }
 
 @media screen and (max-width: $mobile) {
   .our-commitment {
     flex-direction: column-reverse;
-  }
-
-  .our-commitment__img {
-    background-image: url(/img/about-us/our-commitment-mobile.png);
-    width: 327px;
-    height: 400px;
   }
 
   .our-commitment__block {
