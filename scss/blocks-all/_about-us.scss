@@ -42,7 +42,8 @@
 
 @media screen and (max-width: $mobile) {
   .about-us {
-    padding-left: 0;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
   .about-us__title {
@@ -56,6 +57,6 @@
     line-height: 25px;
     text-align: center;
     margin: 0 auto;
-    width: 279px;
+    width: auto;
   }
 }

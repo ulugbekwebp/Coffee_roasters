@@ -52,6 +52,10 @@
 @media screen and (max-width: $tablet) {
   // Tablet
 
+  .coffee-made__container{
+    background-image: url(../../img/creat_coffee_tablet.png);
+  }
+
   .coffee-made__title {
     font-size: 48px;
     line-height: 48px;
@@ -67,15 +71,20 @@
 @media screen and (max-width: $mobile) {
   // Mobile
 
+  .coffee-made__container{
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 
   .coffee-made__block {
+    padding-top: 111px;
     padding-left: 0;
   }
 
   .coffee-made__title {
     font-size: 40px;
     line-height: 40px;
-    width: 279px;
+    width: auto;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 24px;
@@ -84,7 +93,7 @@
   .coffee-made__desc {
     text-align: center;
     font-size: 15px;
-    width: 279px;
+    width: auto;
     margin: 0 auto;
   }
 
