@@ -71,6 +71,16 @@
   display: flex;
 }
 
+.main-footer__social-link{
+  fill: #FEFCF7;
+  width: 24px;
+  height: 24px;
+}
+
+.main-footer__social-link:active{
+  fill: #FDD6BA;
+}
+
 @media screen and (max-width: $tablet) {
   .main-footer__container {
     flex-direction: column;
