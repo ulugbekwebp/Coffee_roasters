@@ -44,17 +44,24 @@
 
   .our-commitment {
     margin-bottom: 304px;
+    justify-content: center;
   }
 
   .our-commitment__title {
     font-size: 32px;
     line-height: 48px;
   }
+
+  .our-commitment__block{
+    margin-left: 69px;
+  }
 }
 
 @media screen and (max-width: $mobile) {
   .our-commitment {
     flex-direction: column-reverse;
+    margin-top: 120px;
+    margin-bottom: 198px;
   }
 
   .our-commitment__block {
@@ -71,6 +78,6 @@
 
   .our-commitment__desc {
     text-align: center;
-    width: auto;
+    width: 327px;
   }
 }

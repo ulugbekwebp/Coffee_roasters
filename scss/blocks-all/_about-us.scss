@@ -1,5 +1,6 @@
 .about-us {
   background-image: url(../img/about-us/about-us.png);
+  background-repeat: no-repeat;
   border-radius: 10px;
   padding: 137px 0;
   max-width: 1280px;
@@ -28,6 +29,17 @@
 
 
 @media screen and (max-width: $tablet) {
+  .about-us{
+    background-image: url(../../img/about-us/about-us-tablet.jpg);
+    padding: 118px 0;
+    padding-left: 58px;
+  }
+
+  .about-us__wrapper{
+    margin: 0 auto;
+    width: 689px;
+  }
+
   .about-us__title {
     font-size: 32px;
     line-height: 40px;
@@ -42,8 +54,9 @@
 
 @media screen and (max-width: $mobile) {
   .about-us {
-    padding-left: 24px;
-    padding-right: 24px;
+    background-image: url(../../img/about-us/about-us-mobile.jpg);
+    width: 327px;
+    padding: 111px 24px 87px;
   }
 
   .about-us__title {

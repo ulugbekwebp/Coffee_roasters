@@ -79,6 +79,7 @@
     width: auto;
     padding-left: 24px;
     padding-right: 24px;
+    margin-bottom: 120px;
   }
 
   .uncompromising-quality__desc {
@@ -90,5 +91,10 @@
   .uncompromising-quality__title {
     font-size: 28px;
     line-height: 28px;
+  }
+
+  .uncompromising-quality__block{
+    width: 279px;
+    margin: 0 auto;
   }
 }

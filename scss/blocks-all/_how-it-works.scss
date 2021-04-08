@@ -130,8 +130,17 @@
     width: auto;
   }
 
-  .content-how-it-works__round-list {
-    display: none;
+  .content-how-it-works__round-list::before {
+    content: '';
+    z-index: -1;
+    top: 15px;
+    left: 15.5px;
+    height: 1px;
+    width: 467px;
+  }
+
+  .content-how-it-works__round-item{
+    margin-right: 202px;
   }
 }
 
@@ -139,7 +148,6 @@
 
   // Mobile
   .content-how-it-works__title {
-    margin-top: 100%;
     text-align: center;
   }
 
