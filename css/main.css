@@ -1374,4 +1374,29 @@ img {
     margin-bottom: 120px;
   }
 }
+
+.create-plan__wrapper {
+  background-image: url(../../img/create-plan/create-plan.jpg);
+  background-repeat: no-repeat;
+  padding-left: 85px;
+  padding-top: 134px;
+  padding-bottom: 134px;
+}
+
+.create-plan__desc {
+  color: #FEFCF7;
+  margin: 0;
+  font-size: 16px;
+  line-height: 26px;
+  width: 445px;
+}
+
+.create-plan__title {
+  font-family: 'Fraunces 9pt Soft';
+  font-size: 72px;
+  line-height: 72px;
+  color: #FEFCF7;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
 /*# sourceMappingURL=main.css.map */
