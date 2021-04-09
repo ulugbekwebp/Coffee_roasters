@@ -628,11 +628,17 @@ img {
     padding-left: 32px;
     display: block;
     width: 279px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+  .content-choose__item:last-child {
+    margin: 0 auto;
   }
   .content-choose__list {
     margin-left: 0;
     margin-right: 0;
     left: 0;
+    display: block;
   }
   .content-choose__item:last-child {
     margin-bottom: 0;
