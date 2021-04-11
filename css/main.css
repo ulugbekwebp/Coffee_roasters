@@ -235,8 +235,15 @@ img {
 .coffee-made__container {
   background-image: url(../img/creat_coffee.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
   padding-bottom: 116px;
   border-radius: 10px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .coffee-made__container {
+    background-image: url(../../img/creat_coffee@2x.jpg);
+  }
 }
 
 .coffee-made__title {
@@ -307,6 +314,12 @@ img {
   }
 }
 
+@media only screen and (max-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 1280px) and (min--moz-device-pixel-ratio: 2), only screen and (max-width: 1280px) and (min-device-pixel-ratio: 2), only screen and (max-width: 1280px) and (min-resolution: 192dpi), only screen and (max-width: 1280px) and (min-resolution: 2dppx) {
+  .coffee-made__container {
+    background-image: url(../../img/creat_coffee_tablet@2x.jpg);
+  }
+}
+
 @media screen and (max-width: 689px) {
   .coffee-made__container {
     background-image: url(../../img/creat_coffee_mobile.png);
@@ -343,6 +356,12 @@ img {
     border-radius: 6px;
     margin: 0 auto;
     margin-top: 39px;
+  }
+}
+
+@media only screen and (max-width: 689px) and (-webkit-min-device-pixel-ratio: 2), only screen and (max-width: 689px) and (min--moz-device-pixel-ratio: 2), only screen and (max-width: 689px) and (min-device-pixel-ratio: 2), only screen and (max-width: 689px) and (min-resolution: 192dpi), only screen and (max-width: 689px) and (min-resolution: 2dppx) {
+  .coffee-made__container {
+    background-image: url(../../img/creat_coffee_mobile@2x.jpg);
   }
 }
 
